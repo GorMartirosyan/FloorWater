@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F793B3924F8696600A43FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F793B3824F8696600A43FFC /* AppDelegate.swift */; };
+		7F793B3B24F8696600A43FFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F793B3A24F8696600A43FFC /* SceneDelegate.swift */; };
+		7F793B3D24F8696600A43FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F793B3C24F8696600A43FFC /* ViewController.swift */; };
+		7F793B4024F8696600A43FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F793B3E24F8696600A43FFC /* Main.storyboard */; };
+		7F793B4224F8696700A43FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F793B4124F8696700A43FFC /* Assets.xcassets */; };
+		7F793B4524F8696700A43FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F793B4324F8696700A43FFC /* LaunchScreen.storyboard */; };
+		7F793B4D24F86A0900A43FFC /* GifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F793B4C24F86A0900A43FFC /* GifLoader.swift */; };
+		7F793B4F24F86A3000A43FFC /* flowers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7F793B4E24F86A3000A43FFC /* flowers.gif */; };
+		7F793B5124F86A3800A43FFC /* water.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7F793B5024F86A3800A43FFC /* water.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F793B3524F8696600A43FFC /* FloorWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloorWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F793B3824F8696600A43FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F793B3A24F8696600A43FFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F793B3C24F8696600A43FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F793B3F24F8696600A43FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F793B4124F8696700A43FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F793B4424F8696700A43FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F793B4624F8696700A43FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F793B4C24F86A0900A43FFC /* GifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoader.swift; sourceTree = "<group>"; };
+		7F793B4E24F86A3000A43FFC /* flowers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flowers.gif; sourceTree = "<group>"; };
+		7F793B5024F86A3800A43FFC /* water.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = water.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F793B3224F8696600A43FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F793B2C24F8696600A43FFC = {
+			isa = PBXGroup;
+			children = (
+				7F793B3724F8696600A43FFC /* FloorWater */,
+				7F793B3624F8696600A43FFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F793B3624F8696600A43FFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F793B3524F8696600A43FFC /* FloorWater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F793B3724F8696600A43FFC /* FloorWater */ = {
+			isa = PBXGroup;
+			children = (
+				7F793B3824F8696600A43FFC /* AppDelegate.swift */,
+				7F793B3A24F8696600A43FFC /* SceneDelegate.swift */,
+				7F793B4C24F86A0900A43FFC /* GifLoader.swift */,
+				7F793B3C24F8696600A43FFC /* ViewController.swift */,
+				7F793B3E24F8696600A43FFC /* Main.storyboard */,
+				7F793B4124F8696700A43FFC /* Assets.xcassets */,
+				7F793B4324F8696700A43FFC /* LaunchScreen.storyboard */,
+				7F793B4624F8696700A43FFC /* Info.plist */,
+				7F793B5224F86A3E00A43FFC /* Resources */,
+			);
+			path = FloorWater;
+			sourceTree = "<group>";
+		};
+		7F793B5224F86A3E00A43FFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F793B5024F86A3800A43FFC /* water.gif */,
+				7F793B4E24F86A3000A43FFC /* flowers.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F793B3424F8696600A43FFC /* FloorWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F793B4924F8696700A43FFC /* Build configuration list for PBXNativeTarget "FloorWater" */;
+			buildPhases = (
+				7F793B3124F8696600A43FFC /* Sources */,
+				7F793B3224F8696600A43FFC /* Frameworks */,
+				7F793B3324F8696600A43FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloorWater;
+			productName = FloorWater;
+			productReference = 7F793B3524F8696600A43FFC /* FloorWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F793B2D24F8696600A43FFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = user1;
+				TargetAttributes = {
+					7F793B3424F8696600A43FFC = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 7F793B3024F8696600A43FFC /* Build configuration list for PBXProject "FloorWater" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F793B2C24F8696600A43FFC;
+			productRefGroup = 7F793B3624F8696600A43FFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F793B3424F8696600A43FFC /* FloorWater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F793B3324F8696600A43FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F793B4524F8696700A43FFC /* LaunchScreen.storyboard in Resources */,
+				7F793B4F24F86A3000A43FFC /* flowers.gif in Resources */,
+				7F793B4224F8696700A43FFC /* Assets.xcassets in Resources */,
+				7F793B5124F86A3800A43FFC /* water.gif in Resources */,
+				7F793B4024F8696600A43FFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F793B3124F8696600A43FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F793B3D24F8696600A43FFC /* ViewController.swift in Sources */,
+				7F793B3924F8696600A43FFC /* AppDelegate.swift in Sources */,
+				7F793B3B24F8696600A43FFC /* SceneDelegate.swift in Sources */,
+				7F793B4D24F86A0900A43FFC /* GifLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F793B3E24F8696600A43FFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F793B3F24F8696600A43FFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F793B4324F8696700A43FFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F793B4424F8696700A43FFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F793B4724F8696700A43FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F793B4824F8696700A43FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F793B4A24F8696700A43FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB92D46UC3;
+				INFOPLIST_FILE = FloorWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.FloorWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F793B4B24F8696700A43FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB92D46UC3;
+				INFOPLIST_FILE = FloorWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.FloorWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F793B3024F8696600A43FFC /* Build configuration list for PBXProject "FloorWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F793B4724F8696700A43FFC /* Debug */,
+				7F793B4824F8696700A43FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F793B4924F8696700A43FFC /* Build configuration list for PBXNativeTarget "FloorWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F793B4A24F8696700A43FFC /* Debug */,
+				7F793B4B24F8696700A43FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F793B2D24F8696600A43FFC /* Project object */;
+}
